@@ -1,0 +1,24 @@
+{
+	"name": "bndlr",
+	"version": "0.1.0",
+	"description": "CDN & Dev freindly static content bundler",
+	"keywords": ["bundle", "js", "css", "middleware", "bundler", "cdn"],
+	"homepage": "http://github.com/williamwicks/bndlr",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:williamwicks/bndlr.git"
+	},
+	"author"  : {
+		"name"  : "William Wicks",
+		"email" : "wjwicks@gmail.com"
+	},
+	"devDependencies": {
+		"uglify-js": "1.2.x",
+		"clean-css": "0.3.x"
+	},
+	"main": "index",
+	"engines": {
+		"node": ">=0.4.0"
+	},
+	"licenses": [{"type": "MIT", "url": "http://www.opensource.org/licenses/MIT"}]
+}
