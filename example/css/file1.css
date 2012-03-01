@@ -1,0 +1,13 @@
+button, .button { height: 24px; padding: 4px 8px; background-color: #CCC; border: 1px solid #AAA; border-bottom-color: #777; border-radius: 2px; color: #444; cursor: pointer; font-weight: 500;
+	background-image: -moz-linear-gradient(#FFF, #E8E8E8);
+	background-image: -webkit-linear-gradient(#FFF, #E8E8E8); }
+.button { display: inline-block; height: 14px; line-height: 14px; text-align: center; }
+button:hover, .button:hover { background-color: #DDD;
+	background-image: -moz-linear-gradient(#FFF, #DDD); background-image: -webkit-linear-gradient(#FFF, #DDD); }
+button:active, .button:active { background-color: #DDD; background-image: none; }
+.primary { background: #7DAA29; border-color: #54770E; color: #FFF;
+	background-image: -moz-linear-gradient(#8DC427, #7DAA29); background-image: -webkit-linear-gradient(#8DC427, #7DAA29); }
+.primary:hover { background-color: #709625; background-image: -moz-linear-gradient(#8DC427, #709625); background-image: -webkit-linear-gradient(#8DC427, #709625); }
+button[disabled] { background-color: #E8E8E8; background-image: none; border-color: #AAA; box-shadow: none; color: #999; cursor: default; }
+input.noStyle,
+input.noStyle:hover { padding: 0px; background: none; border: none; box-shadow: none; border-radius: 0px; }
