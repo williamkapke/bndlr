@@ -7,9 +7,9 @@ var bndlr = require("./../index.js"),
 	cleancss = require('clean-css')
 	;
 
-bndlr.getFilePath = function(configdir, type, filename){
+bndlr.getFilePath = function(info){
 	//interpret where the files are stored locally
-	return path.join(configdir, type, filename);
+	return path.join(info.configdir, info.type, info.filename);
 };
 
 bndlr.StaticFile.prototype.uniqueNamer = function(){
