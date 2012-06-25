@@ -1,6 +1,6 @@
 {
 	"name": "bndlr",
-	"version": "0.1.8",
+	"version": "0.1.9",
 	"description": "CDN & Dev freindly static content bundler",
 	"keywords": ["bundle", "js", "css", "middleware", "bundler", "cdn"],
 	"homepage": "http://github.com/williamwicks/bndlr",
@@ -18,7 +18,7 @@
 	},
 	"main": "index",
 	"engines": {
-		"node": ">=0.4.0"
+		"node": ">=0.8.0"
 	},
 	"licenses": [{"type": "MIT", "url": "http://www.opensource.org/licenses/MIT"}]
 }
