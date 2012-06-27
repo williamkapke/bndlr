@@ -1,6 +1,6 @@
 {
 	"name": "bndlr",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "CDN & Dev friendly static content bundler",
 	"keywords": ["bundle", "js", "css", "middleware", "bundler", "cdn"],
 	"homepage": "http://github.com/williamwicks/bndlr",
